@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "panels",
+  "info": {
+    "singularName": "panel",
+    "pluralName": "panels",
+    "displayName": "Panel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "papers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::paper.paper"
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "locationURL": {
+      "type": "string"
+    }
+  }
+}

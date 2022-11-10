@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_session_types_panels",
+  "info": {
+    "displayName": "Panel",
+    "icon": "solar-panel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "type": "datetime",
+      "default": "2022-12-05T22:00:00.000Z",
+      "required": true
+    },
+    "numberOfPapers": {
+      "type": "integer",
+      "max": 3,
+      "min": 1,
+      "default": 3,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_session_types_papers",
+  "info": {
+    "displayName": "Paper",
+    "icon": "newspaper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "abstract": {
+      "type": "richtext"
+    },
+    "bio": {
+      "type": "richtext"
+    },
+    "speaker": {
+      "type": "string",
+      "required": true
+    },
+    "affiliation": {
+      "type": "string"
+    }
+  }
+}
